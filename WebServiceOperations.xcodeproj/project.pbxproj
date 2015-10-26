@@ -12,6 +12,8 @@
 		109EA5191BDE32F000926B70 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 109EA5171BDE32F000926B70 /* Main.storyboard */; };
 		109EA51B1BDE32F000926B70 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 109EA51A1BDE32F000926B70 /* Assets.xcassets */; };
 		109EA51E1BDE32F000926B70 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 109EA51C1BDE32F000926B70 /* LaunchScreen.storyboard */; };
+		109EA5261BDE330000926B70 /* AVWebOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 109EA5251BDE330000926B70 /* AVWebOperation.swift */; settings = {ASSET_TAGS = (); }; };
+		109EA5281BDE330300926B70 /* AVReachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 109EA5271BDE330300926B70 /* AVReachability.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		109EA51A1BDE32F000926B70 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		109EA51D1BDE32F000926B70 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		109EA51F1BDE32F000926B70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		109EA5251BDE330000926B70 /* AVWebOperation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AVWebOperation.swift; sourceTree = "<group>"; };
+		109EA5271BDE330300926B70 /* AVReachability.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AVReachability.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,8 @@
 			children = (
 				109EA5131BDE32F000926B70 /* AppDelegate.swift */,
 				109EA5151BDE32F000926B70 /* ViewController.swift */,
+				109EA5251BDE330000926B70 /* AVWebOperation.swift */,
+				109EA5271BDE330300926B70 /* AVReachability.swift */,
 				109EA5171BDE32F000926B70 /* Main.storyboard */,
 				109EA51A1BDE32F000926B70 /* Assets.xcassets */,
 				109EA51C1BDE32F000926B70 /* LaunchScreen.storyboard */,
@@ -136,6 +142,8 @@
 			files = (
 				109EA5161BDE32F000926B70 /* ViewController.swift in Sources */,
 				109EA5141BDE32F000926B70 /* AppDelegate.swift in Sources */,
+				109EA5261BDE330000926B70 /* AVWebOperation.swift in Sources */,
+				109EA5281BDE330300926B70 /* AVReachability.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
